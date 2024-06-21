@@ -12,6 +12,7 @@ dateCreated: 2019-07-20T15:31:49.465Z
 
 # Setup
 
+
 ## A) Copy the redirect URI
 
 1. In the **Administration Area** of your wiki, click on **Authentication** in the left navigation.
@@ -39,6 +40,13 @@ dateCreated: 2019-07-20T15:31:49.465Z
 1. Select the **group** new users should be assigned to when they login for the first time.
 1. Make sure the checkbox next to **Azure Active Directory** in the list of strategies is checked. The text should now say that the strategy is **active**.
 1. Click **Apply** on the upper right of the page to save and apply the configuration.
+
+## To enable Azure Active Directory, pay attention to the following items:
+
+1. Make sure the general URL in the Site URL field, don't forget to put the port
+ex: https://YOU-WIKI.DOMAIN.COM:3443
+
+1. Note: if you do not use the “Allow self-registration” option, you must create the user with name = email and then include it in the group.
 
 <img src="https://static.requarks.io/logo/azure.svg" class="align-abstopright" style="width:150px;" />
   
